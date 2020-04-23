@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Hotel Transylvania</title>
+    <link rel="stylesheet" type="text/css" href="css/gamestyle.css" />
+    <link rel="stylesheet" type="text/css" href="css/animate.css" />
+  </head>
+
+  <body>
+    <div id="background" class="popup animate tada"></div>
+    <div id="gamewon" class="popup-won animate heartBeat"></div>
+    <a
+      id="back-button"
+      class="back animate heartBeat"
+      href="gamestart.html"
+    ></a>
+    <a id="mute-button" class="animate heartBeat"></a>
+    <a
+      id="restart-button"
+      class="restart animate heartBeat"
+      href="index.html"
+    ></a>
+    <div id="game-clue" class="witch-clue animate bounceInRight"></div>
+    <img src="./svg/moon.svg" class="animate pulse" id="moon-svg" />
+
+    <img src="./svg/HOTEL.svg" id="hotel-svg" class="media-hotel" />
+    <img src="./svg/trees.svg" id="trees-svg" />
+    <img src="./svg/bats.svg" id="bats-svg" />
+    <img src="./svg/cross.svg" id="cross-svg" />
+    <span id="time"></span>
+    <!-- <div class="witch-dialog animate fadeIn"   id="dialog-svg"></div> -->
+    <img src="./svg/pumpkin1.svg" id="p1-svg" class="animate bounce" />
+    <img src="./svg/pumpkin2.svg" id="p2-svg" class="animate bounce" />
+    <img src="./svg/pumpkin3.svg" id="p3-svg" class="animate bounce" />
+    <img src="./svg/pumpkin4.svg" id="p4-svg" class="animate bounce" />
+    <img src="./svg/pumpkin5.svg" id="p5-svg" class="animate bounce" />
+    <img
+      src="./svg/owleyesleft.svg"
+      class="animate flash"
+      id="owl-eyesleft-svg"
+    />
+    <img
+      src="./svg/owleyesright.svg"
+      class="animate flash"
+      id="owl-eyesright-svg"
+    />
+    <canvas id="canvas">Canvas is not supported in your browser</canvas>
+    <audio loop src="./audio/creepy.mp3" id="bgm"></audio>
+    <audio loop src="./audio/victory.wav" id="victory"></audio>
+    <audio loop src="./audio/hauntedhouse.wav" id="gOver"></audio>
+    <audio src="./audio/door_2.mp3" id="door-open"></audio>
+
+    <div class="outside">
+      <div class="outside-lightning"></div>
+    </div>
+    <div class="container" id="room-window">
+      <div class="row">
+        <div class="window"></div>
+        <div class="window"></div>
+        <div class="window"></div>
+        <div class="window"></div>
+        <div class="window"></div>
+        <div class="window"></div>
+        <div class="window"></div>
+        <div class="window"></div>
+        <div class="window"></div>
+        <div class="window"></div>
+      </div>
+      <div class="row">
+        <div class="window"></div>
+        <div class="window"></div>
+        <div class="window"></div>
+        <div class="window"></div>
+        <div class="window"></div>
+        <div class="window"></div>
+        <div class="window"></div>
+        <div class="window"></div>
+        <div class="window"></div>
+        <div class="window"></div>
+      </div>
+      <div class="row">
+        <div class="window"></div>
+        <div class="window"></div>
+        <div class="window"></div>
+        <div class="window"></div>
+        <div class="window"></div>
+        <div class="window"></div>
+        <div class="window"></div>
+        <div class="window"></div>
+        <div class="window"></div>
+        <div class="window"></div>
+      </div>
+      <div class="row">
+        <div class="window"></div>
+        <div class="window"></div>
+        <div class="window"></div>
+        <div class="window"></div>
+        <div class="window"></div>
+        <div class="window"></div>
+        <div class="window"></div>
+        <div class="window"></div>
+        <div class="window"></div>
+        <div class="window"></div>
+      </div>
+      <div class="row">
+        <div class="window"></div>
+        <div class="window"></div>
+        <div class="window"></div>
+        <div class="window"></div>
+        <div class="window"></div>
+        <div class="window"></div>
+        <div class="window"></div>
+        <div class="window"></div>
+        <div class="window"></div>
+        <div class="window"></div>
+      </div>
+    </div>
+  </body>
+  <script src="JS/gameMechanics.js"></script>
+  <!-- <script src="JS/rain.js"></script> -->
+</html>
