@@ -317,6 +317,7 @@ body {
   height: 3vh;
   left: 97vw;
   top: 7vh;
+  z-index: 3;
 }
 #back-button {
   background: url(../svg/back.svg) no-repeat;
@@ -326,6 +327,7 @@ body {
   height: 3vh;
   left: 96.5vw;
   top: 2vh;
+  z-index: 3;
 }
 
 #cross-svg {
