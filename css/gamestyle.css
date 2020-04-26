@@ -1,24 +1,102 @@
 body {
-  background: url(../svg/Desktop2.svg) no-repeat;
-  position: absolute;
-
-  
-  height: 100%;
+  background-color: white;
+  width: 100vw;
+  height: 100vh;
   margin: 0;
   padding: 0;
   display: flex;
   flex-direction: column;
-  
+  position: absolute;
   overflow: hidden;
+}
+
+#bg-svg {
+  width: 101vw;
+  height: 109vh;
+  margin: 0;
+  left: 0vw;
+  top: -8vh;
+  position: absolute;
 }
 
 #canvas {
   width: 100%;
   position: relative;
-  
-  margin-bottom: 50px;
+
   z-index: 2;
   pointer-events: none;
+}
+#hotel-svg {
+  position: absolute;
+  width: 89vw;
+  height: 86vh;
+  left: -5vw;
+  top: 1vh;
+  box-sizing: inherit;
+}
+
+#moon-svg {
+  position: absolute;
+
+  width: 100vw;
+  height: 63vh;
+  left: 32vw;
+  top: 0vh;
+  box-sizing: inherit;
+
+  /* animation */
+
+  animation-duration: 3s;
+  animation-delay: 2s;
+}
+#trees-svg {
+  position: absolute;
+  width: 100vw;
+  height: 112vh;
+  left: 0vw;
+  top: 0vh;
+  box-sizing: inherit;
+  pointer-events: none;
+}
+#bats-svg {
+  position: absolute;
+  width: 79vw;
+  height: 66vh;
+  left: 6vw;
+  top: 0vh;
+}
+/* owleyesright */
+
+#owl-eyesright-svg {
+  position: absolute;
+
+  left: 13vw;
+  top: 30.5vh;
+  /* animation */
+
+  animation-duration: 3s;
+  animation-delay: 2s;
+  animation-iteration-count: infinite;
+}
+
+#owl-eyesleft-svg {
+  position: absolute;
+  left: 87.7vw;
+  top: 49vh;
+
+  /* animation */
+
+  animation-duration: 3s;
+  animation-delay: 3s;
+  animation-iteration-count: infinite;
+}
+
+.container {
+  position: absolute;
+
+  width: 38vw;
+  left: 20.5vw;
+  top: 28vh;
 }
 
 .close.visible {
@@ -39,10 +117,10 @@ body {
 .popup-won.visible {
   background: url(../svg/youwon.svg) no-repeat;
   position: absolute;
-  width: 1336px;
-  height: 1031.2px;
-  left: 224px;
-  top: 111.09px;
+  width: 150vw;
+  height: 100vh;
+  left: 12vw;
+  top: 9vh;
   margin: 0;
   padding: 0;
   display: flex;
@@ -60,10 +138,10 @@ body {
 .witch-clue.visible {
   background: url(../svg/witch.svg) no-repeat;
   position: absolute;
-  width: 450px;
-  height: 235.02px;
-  left: 1320px;
-  top: 130px;
+  width: 50vw;
+  height: 50vh;
+  left: 72vw;
+  top: 10vh;
   margin: 0;
   padding: 0;
   display: flex;
@@ -82,14 +160,13 @@ body {
   display: none;
 }
 
-
 .popup.visible {
   background: url(../svg/gm.svg) no-repeat;
   position: absolute;
-  width: 1336px;
-  height: 1031.2px;
-  left: 224px;
-  top: 111.09px;
+  width: 150vw;
+  height: 100vh;
+  left: 12vw;
+  top: 9vh;
   margin: 0;
   padding: 0;
   display: flex;
@@ -103,47 +180,11 @@ body {
   animation-delay: none;
   animation-iteration-count: infinite;
 }
-#hotel-svg {
-  position: absolute;
-  width: 924.02px;
-  height: 940px;
-  left: 257px;
-  top: 4px;
-  box-sizing: inherit;
-}
-
-
-
-#moon-svg {
-  position: absolute;
-  width: 660px;
-  height: 660px;
-  left: 1180px;
-  top: 10px;
-  box-sizing: inherit;
-
-  /* animation */
-
-  animation-duration: 3s;
-  animation-delay: 2s;
-  animation-iteration-count: infinite;
-}
-
-#trees-svg {
-  position: absolute;
-  width: 1920px;
-  height: 720px;
-  left: 0px;
-  top: 225px;
-  box-sizing: inherit;
-}
 
 #p1-svg {
   position: absolute;
-  width: 152px;
-  height: 152px;
-  left: 1743px;
-  top: 810px;
+  left: 90vw;
+  top: 72vh;
 
   /* animation */
 
@@ -153,10 +194,8 @@ body {
 }
 #p2-svg {
   position: absolute;
-  width: 94px;
-  height: 96px;
-  left: 1613px;
-  top: 870px;
+  left: 82vw;
+  top: 78vh;
 
   transform: rotate(-22.48deg);
 
@@ -169,10 +208,8 @@ body {
 
 #p3-svg {
   position: absolute;
-  width: 94px;
-  height: 96px;
-  left: 248.39px;
-  top: 868px;
+  left: 13vw;
+  top: 78vh;
 
   transform: rotate(12.87deg);
 
@@ -185,10 +222,8 @@ body {
 
 #p4-svg {
   position: absolute;
-  width: 174px;
-  height: 192px;
-  left: 89.36px;
-  top: 787px;
+  left: 5vw;
+  top: 72vh;
 
   transform: rotate(4.29deg);
   z-index: 2;
@@ -202,10 +237,8 @@ body {
 
 #p5-svg {
   position: absolute;
-  width: 94px;
-  height: 96px;
-  left: 20px;
-  top: 877.64px;
+  left: 1vw;
+  top: 78vh;
 
   transform: rotate(-23.6deg);
 
@@ -216,95 +249,21 @@ body {
   animation-iteration-count: infinite;
 }
 
-.restart.visible{
-background: url(../svg/restart.svg) no-repeat;
-position: absolute;
-width: 417px;
-height: 58px;
-left: 780px;
-top: 735px;
-z-index: 2;
-}
-#back-button {
-  background: url(../svg/back.svg) no-repeat;
-  
+.restart.visible {
+  background: url(../svg/restart.svg) no-repeat;
   position: absolute;
-  width: 37.62px;
-  height: 37.62px;
-  left: 1868.2px;
-  top: 14px;
-}
-/* #back-button:hover{
-  background: url(../svg/btm.svg) no-repeat;
-  position: absolute;
-width: 110px;
-height: 32px;
-left: 1742px;
-top: 20px;
-cursor: pointer;
-} */
-#bats-svg {
-  position: absolute;
-  width: 1422.11px;
-  height: 526.37px;
-  left: 139px;
-  top: 137px;
-}
-/* owleyesright */
-
-#owl-eyesright-svg {
-  position: absolute;
-  width: 21.7px;
-  height: 14px;
-  left: 249.24px;
-  top: 330px;
-  /* animation */
-
-  animation-duration: 3s;
-  animation-delay: 2s;
-  animation-iteration-count: infinite;
-}
-
-#owl-eyesleft-svg {
-  position: absolute;
-  width: 21.7px;
-  height: 14px;
-  left: 1684.56px;
-  top: 515px;
-
-  /* animation */
-
-  animation-duration: 3s;
-  animation-delay: 3s;
-  animation-iteration-count: infinite;
-}
-
-.container {
-  position: absolute;
-  height: 502px;
-  width: 878px;
-  left: 333px;
-  top: 322.87px;
-}
-
-.pent-window {
-  position: absolute;
-  background-color: #444451;
-  width: 56.31px;
-  height: 60.71px;
-  left: 697.99px;
-  top: -315px;
-  margin: 7px;
-  background: #d0d0d0;
-  box-shadow: inset 0px 0px 4px rgba(255, 230, 0, 0.2);
-  border-radius: 20px 20px 0px 0px;
+  width: 100vw;
+  height: 50vh;
+  left: 40vw;
+  top: 72vh;
+  z-index: 2;
 }
 
 .window,
 .ghost-window,
 .masterkey {
-  width: 56.31px;
-  height: 60.71px;
+  width: 50vw;
+  height: 6vh;
 
   margin: 7px;
   background: #d0d0d0;
@@ -334,7 +293,6 @@ cursor: pointer;
 
 .ghost-svg-pop {
   background: url(../svg/ghost.svg);
-  
 }
 
 .masterkey-position {
@@ -350,47 +308,55 @@ cursor: pointer;
   animation: lightning 6s step-end infinite;
 }
 
-#mute-button, #unmute-button{
-background: url(../svg/mute.svg) no-repeat;
-  
+#mute-button,
+#unmute-button {
+  background: url(../svg/mute.svg) no-repeat;
+
   position: absolute;
-  width: 37.62px;
-  height: 37.62px;
-  left: 1880px;
-  top: 70px;
+  width: 3vw;
+  height: 3vh;
+  left: 97vw;
+  top: 7vh;
+}
+#back-button {
+  background: url(../svg/back.svg) no-repeat;
+
+  position: absolute;
+  width: 3vw;
+  height: 3vh;
+  left: 96.5vw;
+  top: 2vh;
 }
 
-#cross-svg{
+#cross-svg {
   position: absolute;
-width: 198.23px;
-height: 327.17px;
-left: 1615px;
-top: 611px;
-box-sizing: inherit;
+  height: 30vh;
+
+  left: 84vw;
+  top: 57vh;
+  box-sizing: inherit;
 }
 
-#time{
+#time {
   position: absolute;
-width: 111px;
-height: 25px;
-left: 1664px;
-top: 700px;
+  width: 10vw;
+  height: 10vh;
+  left: 84vw;
+  top: 65vh;
 
-font-family: Scare Arms;
-font-style: normal;
-font-weight: normal;
-font-size: 25px;
-line-height: 100%;
-/* identical to box height, or 25px */
+  font-family: Scare Arms;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 25px;
+  line-height: 100%;
+  /* identical to box height, or 25px */
 
-text-align: center;
-letter-spacing: 0.185em;
+  text-align: center;
+  letter-spacing: 0.185em;
 
-color: #E40102;
-box-sizing: inherit;
+  color: #e40102;
+  box-sizing: inherit;
 }
-
-
 
 @keyframes lightning {
   0%,
@@ -404,13 +370,126 @@ box-sizing: inherit;
   }
 }
 
-
-/* for tablets and pc's
-@media only screen and (max-width: 900px){
-  body{
-    background: url('../svg/Desktop4.svg') no-repeat;
+/* for tablets and pc's */
+@media only screen and (max-width: 1460px) {
+  #bg-svg {
+    background: url(../svg/Desktop4.svg);
+    width: 103vw;
+    height: 109vh;
+    margin: 0;
+    left: 0vw;
+    top: 0vh;
   }
 
-  
-} */
+  #hotel-svg {
+    border: dotted;
 
+    width: 93vw;
+    height: 89vh;
+    left: 2 vw;
+    top: 0vh;
+  }
+  .window,
+  .ghost-window,
+  .masterkey {
+    width: 50vw;
+    height: 6.5vh;
+  }
+
+  #trees-svg {
+    width: 101vw;
+    height: 111vh;
+    left: 0vw;
+    top: 3vh;
+  }
+
+  #moon-svg {
+    width: 96vw;
+    height: 50vh;
+    left: 37vw;
+    top: 0vh;
+  }
+  #bats-svg {
+    width: 75vw;
+    height: 71vh;
+    left: 8vw;
+    top: 0vh;
+  }
+
+  .container {
+    height: 100vh;
+    width: 46vw;
+    left: 19vw;
+    top: 27vh;
+  }
+
+  #p1-svg {
+    height: 15vh;
+
+    left: 90vw;
+    top: 75vh;
+  }
+  #p2-svg {
+    height: 13vh;
+
+    left: 82vw;
+    top: 78vh;
+  }
+
+  #p3-svg {
+    height: 11vh;
+
+    left: 11vw;
+    top: 79vh;
+  }
+
+  #p4-svg {
+    height: 14vh;
+
+    left: 6vw;
+    top: 77vh;
+  }
+
+  #p5-svg {
+    height: 13vh;
+
+    left: 1vw;
+    top: 79vh;
+  }
+  #owl-eyesright-svg {
+    height: 1.4vh;
+
+    left: 13vw;
+    top: 36.5vh;
+  }
+
+  #owl-eyesleft-svg {
+    height: 1.3vh;
+    left: 88.5vw;
+    top: 52vh;
+  }
+
+  #cross-svg {
+    height: 28vh;
+
+    left: 84vw;
+    top: 61vh;
+    box-sizing: inherit;
+  }
+  #time {
+    left: 84vw;
+    top: 68.3vh;
+  }
+  .popup.visible {
+    left: 0vw;
+    top: 9vh;
+  }
+  .restart.visible {
+    left: 38vw;
+    top: 77vh;
+  }
+  .popup-won.visible {
+    left: 0vw;
+    top: 9vh;
+  }
+}
