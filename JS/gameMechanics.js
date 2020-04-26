@@ -31,7 +31,7 @@ window.onload = function () {
   startTimer(thirtySeconds, display);
 };
 
-function spawnMasterkey() {
+ function spawnMasterkey() {
   var array = new Uint8Array(6);
   console.log(array);
   window.crypto.getRandomValues(array);
@@ -61,7 +61,7 @@ function spawnMasterkey() {
   //   elem[ghost_room_position].classList.add('ghost-window');
   //   console.log(ghost_room_position);
   // }
-}
+};
 
 function gameClue() {
   document.getElementById('game-clue').classList.add('visible');
@@ -76,6 +76,8 @@ function gameWonPopup() {
   document.getElementById('restart-button').classList.add('visible');
   document.getElementById('gamewon').classList.add('visible');
 }
+
+
 
 for (var i = 0; i < elem.length; i++) {
   elem[i].addEventListener('click', function (e) {
