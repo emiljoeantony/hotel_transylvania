@@ -384,11 +384,9 @@ body {
   }
 
   #hotel-svg {
-    border: dotted;
-
     width: 93vw;
-    height: 89vh;
-    left: 2 vw;
+    height: 92vh;
+
     top: 0vh;
   }
   .window,
@@ -420,43 +418,43 @@ body {
 
   .container {
     height: 100vh;
-    width: 46vw;
+    width: 45vw;
     left: 19vw;
-    top: 27vh;
+    top: 29vh;
   }
 
   #p1-svg {
     height: 15vh;
 
     left: 90vw;
-    top: 75vh;
+    top: 80vh;
   }
   #p2-svg {
     height: 13vh;
 
     left: 82vw;
-    top: 78vh;
+    top: 81vh;
   }
 
   #p3-svg {
     height: 11vh;
 
     left: 11vw;
-    top: 79vh;
+    top: 82vh;
   }
 
   #p4-svg {
     height: 14vh;
 
     left: 6vw;
-    top: 77vh;
+    top: 81vh;
   }
 
   #p5-svg {
     height: 13vh;
 
     left: 1vw;
-    top: 79vh;
+    top: 82vh;
   }
   #owl-eyesright-svg {
     height: 1.4vh;
@@ -475,14 +473,15 @@ body {
     height: 28vh;
 
     left: 84vw;
-    top: 61vh;
+    top: 64vh;
     box-sizing: inherit;
   }
   #time {
     left: 84vw;
-    top: 68.3vh;
+    top: 71.3vh;
   }
   .popup.visible {
+    background: url(../svg/gmsmallscreen.svg) no-repeat;
     left: 0vw;
     top: 9vh;
   }
