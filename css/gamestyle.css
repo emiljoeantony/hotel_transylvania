@@ -376,8 +376,8 @@ body {
 @media only screen and (max-width: 1460px) {
   #bg-svg {
     background: url(../svg/Desktop4.svg);
-    width: 103vw;
-    height: 109vh;
+    width: 100vw;
+    height: 116vh;
     margin: 0;
     left: 0vw;
     top: 0vh;
@@ -388,7 +388,7 @@ body {
     height: 92vh;
 
     top: 0vh;
-  }
+  } 
   .window,
   .ghost-window,
   .masterkey {
