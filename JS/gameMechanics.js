@@ -13,16 +13,16 @@ var timeLeft = 30;
 var clock = document.getElementById('time');
 var timerId = setInterval(countdown, 1000);
 
-function countdown() {
-  if (timeLeft == 60) {
-    clearTimeout(timerId);
-    gameOverAudio.play();
-    gameOverPopup();
-  } else {
-    clock.innerHTML = '11' + ':' + '59' + ':' + timeLeft;
-    timeLeft++;
-  }
-}
+// function countdown() {
+//   if (timeLeft == 60) {
+//     clearTimeout(timerId);
+//     gameOverAudio.play();
+//     gameOverPopup();
+//   } else {
+//     clock.innerHTML = '11' + ':' + '59' + ':' + timeLeft;
+//     timeLeft++;
+//   }
+// }
 
 window.onload = function () {
   spawnMasterkey();

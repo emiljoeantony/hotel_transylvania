@@ -12,10 +12,10 @@ body {
 
 #bg-svg {
   width: 101vw;
-  height: 109vh;
+  height: 111vh;
   margin: 0;
-  left: 0vw;
-  top: -8vh;
+  left: -1vw;
+  top: -10vh;
   position: absolute;
 }
 
@@ -314,7 +314,7 @@ body {
 
   position: absolute;
   width: 3vw;
-  height: 3vh;
+  height: 7vh;
   left: 97vw;
   top: 7vh;
   z-index: 3;
@@ -324,7 +324,7 @@ body {
 
   position: absolute;
   width: 3vw;
-  height: 3vh;
+  height: 7vh;
   left: 96.5vw;
   top: 2vh;
   z-index: 3;
@@ -384,8 +384,8 @@ body {
   }
 
   #hotel-svg {
-    width: 93vw;
-    height: 92vh;
+    width: 100vw;
+    height: 109vh;
 
     top: 0vh;
   } 
@@ -482,7 +482,7 @@ body {
   }
   .popup.visible {
     background: url(../svg/gmsmallscreen.svg) no-repeat;
-    left: 0vw;
+    left: 15vw;
     top: 9vh;
   }
   .restart.visible {
