@@ -171,14 +171,14 @@ body {
 
   /* animation */
 
-  /* animation-duration: 3s;
+/* animation-duration: 3s;
   animation-delay: none;
   animation-iteration-count: infinite;
 }
 
 .witch-clue.hidden {
   display: none;
-} */ 
+} */
 
 .popup.visible {
   background: url(../svg/gm.svg) no-repeat;
@@ -312,7 +312,7 @@ body {
 }
 
 .ghost-svg-pop {
-  background: url(../svg/ghost.svg);
+  background: url(../svg/ghost.svg) !important;
 }
 
 .masterkey-position {
@@ -513,9 +513,8 @@ body {
     left: 0vw;
     top: 9vh;
   }
-  .popup-chance.visible{
+  .popup-chance.visible {
     left: 14vw;
     top: 9vh;
-
   }
 }

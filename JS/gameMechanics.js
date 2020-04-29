@@ -110,12 +110,19 @@ for (var i = 0; i < elem.length; i++) {
       }
       if (current.classList.contains('ghost-window') === true) {
         current.classList.add('ghost-svg-pop');
-        console.log('💣 Booom! Game over.');
+        
+        console.log('💣 Booom! Game over.' , current);
 
         bgm.pause();
         gameOverAudio.play();
         setTimeout(gameOverPopup, 1500);
-         countdown.setTimeout(200);
+         
+         if (timerId){
+           clearTimeout(timerId);
+          console.log(timerId);
+
+         }
+         
         document.getElementById('game-clue').classList.add('hidden');
       }
       if (current.classList.contains('masterkey') === true) {
