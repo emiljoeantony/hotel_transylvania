@@ -18,6 +18,7 @@ function countdown() {
     clearTimeout(timerId);
     gameOverAudio.play();
     gameOverPopup();
+    
   } else {
     clock.innerHTML = '11' + ':' + '59' + ':' + timeLeft;
     timeLeft++;
@@ -105,6 +106,7 @@ for (var i = 0; i < elem.length; i++) {
       if (current.classList.contains('ghost-window') === true) {
         current.classList.add('ghost-svg-pop');
         console.log('💣 Booom! Game over.');
+        
         bgm.pause();
         gameOverAudio.play();
         setTimeout(gameOverPopup, 1500);
