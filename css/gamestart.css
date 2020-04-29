@@ -1,5 +1,5 @@
 body {
-  background: url(../svg/Desktop1.svg) no-repeat;
+  
   width: 100vw;
   height: 100vh;
   margin: 0;
@@ -8,7 +8,15 @@ body {
   flex-direction: column;
   position: absolute;
   overflow: hidden;
-  top: 2vh;
+  
+}
+#bg-svg {
+  width: 101vw;
+  height: 111vh;
+  margin: 0;
+  left: -1vw;
+  top: -10vh;
+  position: absolute;
 }
 #player-start-svg {
   position: absolute;
@@ -215,12 +223,17 @@ body {
     left: 35vw;
     top: 85vh;
   }
-  body {
-    background: url(../svg/Desktop4.svg) no-repeat;
+  #bg-svg {
+    background: url(../svg/Desktop4.svg);
+    width: 100vw;
+    height: 109vh;
+    margin: 0;
+    left: 0vw;
+    top: 0vh;
   }
   #start-game-button {
     width: 16vw;
-    height: 4vh;
+    height: 5vh;
   }
   #help-game-button {
     width: 6.3vw;

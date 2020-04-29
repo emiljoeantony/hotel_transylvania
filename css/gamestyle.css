@@ -418,8 +418,8 @@ body {
 
   .container {
     height: 100vh;
-    width: 47vw;
-    left: 19vw;
+    width: 45vw;
+    left: 19.5vw;
     top: 29vh;
   }
 
@@ -459,8 +459,8 @@ body {
   #owl-eyesright-svg {
     height: 1.4vh;
 
-    left: 13vw;
-    top: 36.5vh;
+    left: 13.1vw;
+    top: 34.5vh;
   }
 
   #owl-eyesleft-svg {
