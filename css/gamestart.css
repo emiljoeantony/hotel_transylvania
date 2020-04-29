@@ -249,34 +249,34 @@ body {
     height: 15vh;
 
     left: 90vw;
-    top: 75vh;
+    top: 78vh;
   }
   #p2-svg {
     height: 13vh;
 
     left: 82vw;
-    top: 78vh;
+    top: 81vh;
   }
 
   #p3-svg {
     height: 11vh;
 
     left: 11vw;
-    top: 79vh;
+    top: 82vh;
   }
 
   #p4-svg {
     height: 14vh;
 
     left: 6vw;
-    top: 77vh;
+    top: 80vh;
   }
 
   #p5-svg {
     height: 13vh;
 
     left: 1vw;
-    top: 79vh;
+    top: 82vh;
   }
   #owl-eyesright-svg {
     height: 1.4vh;
@@ -293,11 +293,11 @@ body {
   #ghost-start-svg {
     height: 66vh;
     left: 56vw;
-    top: 23vh;
+    top: 27vh;
   }
   #player-start-svg {
     left: 28vw;
-    top: 68vh;
+    top: 70vh;
   }
   #help-svg {
     position: absolute;
