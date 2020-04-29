@@ -279,7 +279,7 @@ body {
     height: 1.4vh;
 
     left: 13vw;
-    top: 36.5vh;
+    top: 34.5vh;
   }
 
   #owl-eyesleft-svg {
@@ -303,4 +303,9 @@ body {
     left: 0vw;
     top: 33vh;
   }
+  #key-svg {
+
+  top: 42vh;
+
+}
 }

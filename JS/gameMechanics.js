@@ -77,6 +77,10 @@ function gameWonPopup() {
   document.getElementById('restart-button').classList.add('visible');
   document.getElementById('gamewon').classList.add('visible');
 }
+function chancesOverPopup(){
+  document.getElementById('chances-gm').classList.add('visible');
+  document.getElementById('restart-button').classList.add('visible');
+}
 
 
 
@@ -100,13 +104,13 @@ for (var i = 0; i < elem.length; i++) {
         console.log('💣 Booom! Game over.');
         bgm.pause();
         gameOverAudio.play();
-        setTimeout(gameOverPopup, 1500);
+        setTimeout(chancesOverPopup, 500);
         document.getElementById('game-clue').classList.add('hidden');
       }
       if (current.classList.contains('ghost-window') === true) {
         current.classList.add('ghost-svg-pop');
         console.log('💣 Booom! Game over.');
-        
+
         bgm.pause();
         gameOverAudio.play();
         setTimeout(gameOverPopup, 1500);
