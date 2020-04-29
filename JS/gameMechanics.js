@@ -19,7 +19,8 @@ function countdown() {
     gameOverAudio.play();
     gameOverPopup();
     
-  } else {
+  }
+   else {
     clock.innerHTML = '11' + ':' + '59' + ':' + timeLeft;
     timeLeft++;
   }
@@ -114,6 +115,7 @@ for (var i = 0; i < elem.length; i++) {
         bgm.pause();
         gameOverAudio.play();
         setTimeout(gameOverPopup, 1500);
+         countdown.setTimeout(200);
         document.getElementById('game-clue').classList.add('hidden');
       }
       if (current.classList.contains('masterkey') === true) {

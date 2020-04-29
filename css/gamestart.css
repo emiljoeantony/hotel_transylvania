@@ -14,7 +14,7 @@ body {
   width: 101vw;
   height: 111vh;
   margin: 0;
-  left: -1vw;
+  left: 0vw;
   top: -10vh;
   position: absolute;
 }
@@ -22,7 +22,7 @@ body {
   position: absolute;
 
   left: 28vw;
-  top: 76vh;
+  top: 68vh;
   /* animation */
 
   animation-duration: 3s;
@@ -179,7 +179,7 @@ body {
 
   height: 72vh;
   left: 59vw;
-  top: 23vh;
+  top: 16vh;
   animation-duration: 3s;
   animation-delay: 2.2s;
 }

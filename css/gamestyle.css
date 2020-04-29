@@ -152,7 +152,7 @@ body {
 
   animation-duration: 3s;
   animation-delay: none;
-  animation-iteration-count: infinite;
+  animation-iteration-count: 1;
 }
 
 /* .witch-clue.visible {
