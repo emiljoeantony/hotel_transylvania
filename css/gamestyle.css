@@ -372,22 +372,15 @@ body {
   }
 }
 
-
-  
-
-
-  
-    
-
 /* for tablets and pc's */
 @media only screen and (max-width: 1470px) {
   #bg-svg {
     background: url(../svg/Desktop4.svg);
     width: 100vw;
-    height: 116vh;
+    height: 109vh;
     margin: 0;
     left: 0vw;
-    top: -4vh;
+    top: 0vh;
   }
 
   #hotel-svg {
@@ -395,7 +388,7 @@ body {
     height: 91vh;
 
     top: 0vh;
-  } 
+  }
   .window,
   .ghost-window,
   .masterkey {
