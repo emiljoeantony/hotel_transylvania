@@ -219,10 +219,7 @@ body {
 }
 
 @media only screen and (max-width: 1460px) {
-  #player-start-svg {
-    left: 35vw;
-    top: 85vh;
-  }
+ 
   #bg-svg {
     background: url(../svg/Desktop4.svg);
     width: 100vw;
